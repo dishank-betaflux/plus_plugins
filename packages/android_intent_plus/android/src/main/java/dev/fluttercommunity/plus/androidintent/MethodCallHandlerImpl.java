@@ -125,6 +125,8 @@ public final class MethodCallHandlerImpl implements MethodCallHandler {
         return Settings.ACTION_LOCATION_SOURCE_SETTINGS;
       case "action_application_details_settings":
         return Settings.ACTION_APPLICATION_DETAILS_SETTINGS;
+      case "ACTION_APP_OPEN_BY_DEFAULT_SETTINGS":
+        return Settings.ACTION_APPLICATION_DETAILS_SETTINGS;
       default:
         return action;
     }
